@@ -10,7 +10,7 @@ Provide some frequently used js functions.
 ```javascript
 
   option {
-    		queryUrl:undefined,
+    		queryUrl:"/find/demo.html",
     		tableSelect:'#table_template',
     		paginSelect:'#pagin_template',
     		conditionBoard:".partTable",
