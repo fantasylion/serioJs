@@ -3,7 +3,7 @@ Provide some frequently used js functions.
 
 ### Demo
 
-[Demo](https://jsfiddle.net/grr13zgd/6/)
+[Demo](https://jsfiddle.net/grr13zgd/7/)
 
 
 ### How to use
