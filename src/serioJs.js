@@ -23,16 +23,16 @@
 	"use strict"
     var _global;
 	
-	var ActivityUtils = (function(options) {
+	var serioJs = (function(options) {
 		var _this = this;
 		_this._initial(options);
 		
 	});
-	ActivityUtils.initial = function(opt) {
-		return new ActivityUtils(opt);
+	serioJs.initial = function(opt) {
+		return new serioJs(opt);
 	}
 
-	ActivityUtils.prototype = {
+	serioJs.prototype = {
 			constructor: this,
 			
 			_initial: function(opt) {
@@ -274,11 +274,11 @@
 	
     _global = (function(){ return this || (0, eval)('this'); }());
     if (typeof module !== "undefined" && module.exports) {
-        module.exports = ActivityUtils;
+        module.exports = serioJs;
     } else if (typeof define === "function" && define.amd) {
-        define(function(){return ActivityUtils;});
+        define(function(){return serioJs;});
     } else {
-        !('ActivityUtils' in _global) && (_global.ActivityUtils = ActivityUtils);
+        !('serioJs' in _global) && (_global.serioJs = serioJs);
     }
 	
 })( window, jQuery );
